@@ -48,7 +48,7 @@ This project will help you practice working with Java classes, arrays, file I/O,
   - Sorts by rating.
   - Writes sorted movies to `"output.txt"`.
 
-## 🎥 Example `movies.csv` File
+## 🎥 Example `movies.csv` File (Can be found in files)
 ```
 Inception,Christopher Nolan,8.8
 Interstellar,Christopher Nolan,8.6
