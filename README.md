@@ -1,10 +1,10 @@
 # Project-Movie-Collection-Manager
-📝 Files you’ll create:
+## 📝 Files you’ll create:
 
-Movie.java — A class to represent a single movie.
-MovieCollection.java — A class to store and manage a collection of movies.
-MovieCollectionManager.java — A class for reading from and writing to files.
-📄 Movie.java
+`Movie.java` — A class to represent a single movie.  
+`MovieCollection.java` — A class to store and manage a collection of movies.  
+`MovieCollectionManager.java` — A class for reading from and writing to files.  
+## 📄 Movie.java
 
 Fields:
 title (String)
@@ -23,7 +23,7 @@ compareTo(Movie other, char sortBy) method:
 'r' sorts by rating (high to low)
 equals(Movie other):
 Movies are equal if the title and director match, and ratings are very close.
-📚 MovieCollection.java
+## 📚 MovieCollection.java
 
 Fields:
 Movie[] movies — An array of Movie objects
@@ -36,7 +36,7 @@ public boolean add(Movie newMovie) — Adds a movie to the first empty spot; ret
 public MovieCollection getMoviesByDirector(String director) — Returns a new collection with only movies by the given director.
 public void sort(char sortBy) — Sorts movies by title, director, or rating.
 public String toString() — Lists all movies, one per line.
-📂 MovieCollectionManager.java
+## 📂 MovieCollectionManager.java
 
 public static MovieCollection readMoviesFromFile(String fileName) — Reads from a CSV and populates the collection.
 public static void writeCollectionToFile(MovieCollection collection, String fileName) — Writes the collection to a file.
